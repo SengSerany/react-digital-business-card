@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;
+}
+
+.app {
+    max-width: 375px;
+    background-color: #1A1B21;
+    color: white;
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px 30px 0 0;
+    font-family: Inter, sans-serif;
+}
+
+.hero--img {
+    max-width: 375px;
+    max-height: 375px;
+    border-radius: 30px 30px 0 0;
+}
+
+header {
+    text-align: center;
+}
+
+.generalInfos > h1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.generalInfos > h2 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.5px;
+    color: #F3BF99;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.generalInfos > h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-top: 9px;
+}
+
+.email {
+    height: 34px;
+    width: 115px;
+    border-radius: 6px;
+    padding: 9px, 13px, 9px, 11px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-right: 8px;
+}
+
+.linkedin {
+    height: 34px;
+    width: 115px;
+    border-radius: 6px;
+    padding: 9px, 13px, 9px, 11px;
+    background-color: #5093E2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: 8px;
+}
+
+.linkedinIcon {
+    color: white;
+}
