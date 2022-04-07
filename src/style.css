@@ -7,20 +7,20 @@ body {
 }
 
 .app {
-    max-width: 375px;
+    max-width: 317px;
     background-color: #1A1B21;
     color: white;
     margin-top: 44px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 30px 30px 0 0;
+    border-radius: 10px;
     font-family: Inter, sans-serif;
 }
 
 .hero--img {
-    max-width: 375px;
-    max-height: 375px;
-    border-radius: 30px 30px 0 0;
+    max-width: 317px;
+    max-height: 317px;
+    border-radius: 10px 10px 0 0;
 }
 
 header {
@@ -76,4 +76,49 @@ header {
 
 .linkedinIcon {
     color: white;
+}
+
+main {
+    width: 243px;
+    margin: auto;
+}
+
+main > div > p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+main > div > h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.about > h3 {
+    margin-top: 35px;
+}
+
+.interests > h3 {
+    margin-top: 22px;
+}
+
+footer {
+    margin-top: 44px;
+    height: 64px;
+    background-color: #161619;
+    border-radius: 10px;
+}
+
+.socials {
+    display: flex;
+    font-size: 33px;
+    width: 172px;
+    justify-content: space-between;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.socials > div > a {
+    color: #918E9B;
 }
